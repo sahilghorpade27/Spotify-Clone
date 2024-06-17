@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="navoption">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="navoption">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options navoption">
+                    <div class="liboption ">
+                        <img src="./assets/library_icon.png" alt="library">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="libboxes">
+                    <div class="box">
+                        <p class="boxpar-1">Create Your First Playlist</p>
+                        <p class="boxp-2">It's easy We'll help You !!</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box-2">
+                        <p class="boxpar-1">Let's find some podcasts to follow</p>
+                        <p class="boxp-2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse Podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="maincontent">
+            <div class="sticky-nav">
+                <div class="stickynav-icons">
+                    <img src="./assets/backward_icon.png" alt="">
+                    <img src="./assets/forward_icon.png" alt="" class="hide">
+                </div>
+                <div class="stickynav-options">
+                    <button class="bad1 nav-item hide">Explore Premium</button>
+                    <button class="bad2 nav-item dark-badge" ><i class="fa-regular fa-circle-down" ></i>Install App</button>
+                    <i class="fa-solid fa-user nav-item"></i>
+                </div>
+            </div>
+            
+            <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top-50 Global</p>
+                        <p class="card-info">Your Daliy updates of the Most played Tracks....</p>
+                    </div>
+        
+                </div>
+            <h2>Trending now near you</h2>    
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Mahiye Jinna Sona</p>
+                        <p class="card-info">Darshan Raval</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Mere Pass Tum ho</p>
+                        <p class="card-info">Arjit Singh , Rochak Ali , Tulsi Kumar</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Naa Ready(From...)</p>
+                        <p class="card-info">Your Daliy updates of the Most played Tracks....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card7.jpg" alt="" class="card-img">
+                        <p class="card-title">Premium Songs</p>
+                        <p class="card-info">Get Ad Free Premium Songs</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card8.jpeg" alt="" class="card-img">
+                        <p class="card-title">Valentine's Special</p>
+                        <p class="card-info">Beautiful Playlist of Romantic Songs</p>
+                    </div>
+
+              
+
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top Songs Global</p>
+                        <p class="card-info">Best Songs played globally....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top Songs India</p>
+                        <p class="card-info">Best versions of Indian Songs....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top-50 Global</p>
+                        <p class="card-info">Your Daliy updates of the Most played Tracks....</p>
+                    </div>
+        
+                </div>
+
+
+                <br><br><br><br><br><br><br><br><br><br>
+            
+    
+            
+        </div>
+        <div class="musicplayer">
+            <div class="album">
+                <img src="./assets/card3img.jpeg" alt="">
+                <div class="songname">
+                    <p class="song">Mere Pass Ho Tum</p>
+                    <h5>Arjit Singh , Rochak Ali , Tulsi Kumar &nbsp;&nbsp;&nbsp; <i class="fa-regular fa-heart"></i></h5>
+                </div>
+            </div>
+            <div class="player">
+                <div class="playercontrols">
+                    <img src="./assets/player_icon1.png" alt="" class="playecontrol-icons">
+                    <img src="./assets/player_icon2.png" alt="" class="playecontrol-icons">
+                    <img src="./assets/play_musicbar.png" alt="" class="playecontrol-icons icon1">
+                    <img src="./assets/player_icon4.png" alt="" class="playecontrol-icons">
+                    <img src="./assets/player_icon5.png" alt="" class="playecontrol-icons">
+                </div>
+                <div class="progress-bar">
+                    <span class="curr-time">0:00</span>
+                    <input type="range" min="0" max="100" step="1" class="playback-bar" >
+                    <span class="tot-time">3:55</span>
+                </div>
+
+            </div>
+            <div class="controls">
+                    <i class="fa-solid fa-microphone mic"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-laptop-file laptop"></i>
+                    <i class="fa-solid fa-volume-high iconvolume"></i>
+                    <input type="range" min="0" max="100" class="volume">
+                    <i class="fa-solid fa-up-right-and-down-left-from-center fullscreen full"></i>   
+            </div>
+        </div>
+    </div>
+</body>
+</html>
